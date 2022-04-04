@@ -8,24 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		F505D88327F6C41B008ABC6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F505D88227F6C41B008ABC6A /* AppDelegate.swift */; };
-		F505D88527F6C41B008ABC6A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F505D88427F6C41B008ABC6A /* SceneDelegate.swift */; };
-		F505D88727F6C41B008ABC6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F505D88627F6C41B008ABC6A /* ViewController.swift */; };
 		F505D88A27F6C41B008ABC6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F505D88827F6C41B008ABC6A /* Main.storyboard */; };
 		F505D88D27F6C41B008ABC6A /* StudentsDataApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F505D88B27F6C41B008ABC6A /* StudentsDataApp.xcdatamodeld */; };
 		F505D88F27F6C41F008ABC6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F505D88E27F6C41F008ABC6A /* Assets.xcassets */; };
 		F505D89227F6C41F008ABC6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F505D89027F6C41F008ABC6A /* LaunchScreen.storyboard */; };
+		F505D8A327F6C4AB008ABC6A /* StudentListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F505D8A227F6C4AB008ABC6A /* StudentListVC.swift */; };
+		F505D8A527F6C4BA008ABC6A /* StudentAddVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F505D8A427F6C4BA008ABC6A /* StudentAddVC.swift */; };
+		F505D8A727F6C4CD008ABC6A /* StudentListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F505D8A627F6C4CD008ABC6A /* StudentListView.swift */; };
+		F505D8A927F6C4DA008ABC6A /* StudentAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F505D8A827F6C4DA008ABC6A /* StudentAddView.swift */; };
+		F505D8AC27F6C705008ABC6A /* StudentListTBCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F505D8AB27F6C705008ABC6A /* StudentListTBCell.swift */; };
+		F505D8AF27F6CCA3008ABC6A /* PickerViewTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F505D8AE27F6CCA3008ABC6A /* PickerViewTextField.swift */; };
+		F505D8B427F6D9EA008ABC6A /* LocalDataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F505D8B327F6D9EA008ABC6A /* LocalDataBase.swift */; };
+		F505D8B727F6E8F3008ABC6A /* LocalDBModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F505D8B627F6E8F3008ABC6A /* LocalDBModel.swift */; };
+		F505D8BA27F6E9A6008ABC6A /* UIKitExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F505D8B927F6E9A6008ABC6A /* UIKitExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F505D87F27F6C41B008ABC6A /* StudentsDataApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudentsDataApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F505D88227F6C41B008ABC6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F505D88427F6C41B008ABC6A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F505D88627F6C41B008ABC6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F505D88927F6C41B008ABC6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F505D88C27F6C41B008ABC6A /* StudentsDataApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StudentsDataApp.xcdatamodel; sourceTree = "<group>"; };
 		F505D88E27F6C41F008ABC6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F505D89127F6C41F008ABC6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F505D89327F6C41F008ABC6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F505D8A227F6C4AB008ABC6A /* StudentListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentListVC.swift; sourceTree = "<group>"; };
+		F505D8A427F6C4BA008ABC6A /* StudentAddVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentAddVC.swift; sourceTree = "<group>"; };
+		F505D8A627F6C4CD008ABC6A /* StudentListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentListView.swift; sourceTree = "<group>"; };
+		F505D8A827F6C4DA008ABC6A /* StudentAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentAddView.swift; sourceTree = "<group>"; };
+		F505D8AB27F6C705008ABC6A /* StudentListTBCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentListTBCell.swift; sourceTree = "<group>"; };
+		F505D8AE27F6CCA3008ABC6A /* PickerViewTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerViewTextField.swift; sourceTree = "<group>"; };
+		F505D8B327F6D9EA008ABC6A /* LocalDataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDataBase.swift; sourceTree = "<group>"; };
+		F505D8B627F6E8F3008ABC6A /* LocalDBModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDBModel.swift; sourceTree = "<group>"; };
+		F505D8B927F6E9A6008ABC6A /* UIKitExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +73,10 @@
 			isa = PBXGroup;
 			children = (
 				F505D88227F6C41B008ABC6A /* AppDelegate.swift */,
-				F505D88427F6C41B008ABC6A /* SceneDelegate.swift */,
-				F505D88627F6C41B008ABC6A /* ViewController.swift */,
+				F505D89D27F6C468008ABC6A /* Helper */,
+				F505D89C27F6C463008ABC6A /* Model */,
+				F505D89B27F6C45C008ABC6A /* View */,
+				F505D89A27F6C446008ABC6A /* Controller */,
 				F505D88827F6C41B008ABC6A /* Main.storyboard */,
 				F505D88E27F6C41F008ABC6A /* Assets.xcassets */,
 				F505D89027F6C41F008ABC6A /* LaunchScreen.storyboard */,
@@ -68,6 +84,115 @@
 				F505D88B27F6C41B008ABC6A /* StudentsDataApp.xcdatamodeld */,
 			);
 			path = StudentsDataApp;
+			sourceTree = "<group>";
+		};
+		F505D89A27F6C446008ABC6A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F505D8A027F6C487008ABC6A /* StudentAddVC */,
+				F505D89E27F6C474008ABC6A /* StudentListVC */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F505D89B27F6C45C008ABC6A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F505D8A127F6C490008ABC6A /* StudentAddView */,
+				F505D89F27F6C47D008ABC6A /* StudentListView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F505D89C27F6C463008ABC6A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F505D8B527F6E8DB008ABC6A /* LocalDBModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F505D89D27F6C468008ABC6A /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				F505D8B827F6E98E008ABC6A /* UIKitExtension */,
+				F505D8B027F6D96E008ABC6A /* LocalDB */,
+				F505D8AD27F6CC8D008ABC6A /* PickerHelper */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		F505D89E27F6C474008ABC6A /* StudentListVC */ = {
+			isa = PBXGroup;
+			children = (
+				F505D8A227F6C4AB008ABC6A /* StudentListVC.swift */,
+			);
+			path = StudentListVC;
+			sourceTree = "<group>";
+		};
+		F505D89F27F6C47D008ABC6A /* StudentListView */ = {
+			isa = PBXGroup;
+			children = (
+				F505D8AA27F6C6DF008ABC6A /* TableViewCell */,
+				F505D8A627F6C4CD008ABC6A /* StudentListView.swift */,
+			);
+			path = StudentListView;
+			sourceTree = "<group>";
+		};
+		F505D8A027F6C487008ABC6A /* StudentAddVC */ = {
+			isa = PBXGroup;
+			children = (
+				F505D8A427F6C4BA008ABC6A /* StudentAddVC.swift */,
+			);
+			path = StudentAddVC;
+			sourceTree = "<group>";
+		};
+		F505D8A127F6C490008ABC6A /* StudentAddView */ = {
+			isa = PBXGroup;
+			children = (
+				F505D8A827F6C4DA008ABC6A /* StudentAddView.swift */,
+			);
+			path = StudentAddView;
+			sourceTree = "<group>";
+		};
+		F505D8AA27F6C6DF008ABC6A /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				F505D8AB27F6C705008ABC6A /* StudentListTBCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		F505D8AD27F6CC8D008ABC6A /* PickerHelper */ = {
+			isa = PBXGroup;
+			children = (
+				F505D8AE27F6CCA3008ABC6A /* PickerViewTextField.swift */,
+			);
+			path = PickerHelper;
+			sourceTree = "<group>";
+		};
+		F505D8B027F6D96E008ABC6A /* LocalDB */ = {
+			isa = PBXGroup;
+			children = (
+				F505D8B327F6D9EA008ABC6A /* LocalDataBase.swift */,
+			);
+			path = LocalDB;
+			sourceTree = "<group>";
+		};
+		F505D8B527F6E8DB008ABC6A /* LocalDBModel */ = {
+			isa = PBXGroup;
+			children = (
+				F505D8B627F6E8F3008ABC6A /* LocalDBModel.swift */,
+			);
+			path = LocalDBModel;
+			sourceTree = "<group>";
+		};
+		F505D8B827F6E98E008ABC6A /* UIKitExtension */ = {
+			isa = PBXGroup;
+			children = (
+				F505D8B927F6E9A6008ABC6A /* UIKitExtension.swift */,
+			);
+			path = UIKitExtension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,10 +266,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F505D88727F6C41B008ABC6A /* ViewController.swift in Sources */,
 				F505D88D27F6C41B008ABC6A /* StudentsDataApp.xcdatamodeld in Sources */,
 				F505D88327F6C41B008ABC6A /* AppDelegate.swift in Sources */,
-				F505D88527F6C41B008ABC6A /* SceneDelegate.swift in Sources */,
+				F505D8A727F6C4CD008ABC6A /* StudentListView.swift in Sources */,
+				F505D8B727F6E8F3008ABC6A /* LocalDBModel.swift in Sources */,
+				F505D8A527F6C4BA008ABC6A /* StudentAddVC.swift in Sources */,
+				F505D8AC27F6C705008ABC6A /* StudentListTBCell.swift in Sources */,
+				F505D8A927F6C4DA008ABC6A /* StudentAddView.swift in Sources */,
+				F505D8B427F6D9EA008ABC6A /* LocalDataBase.swift in Sources */,
+				F505D8AF27F6CCA3008ABC6A /* PickerViewTextField.swift in Sources */,
+				F505D8BA27F6E9A6008ABC6A /* UIKitExtension.swift in Sources */,
+				F505D8A327F6C4AB008ABC6A /* StudentListVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
